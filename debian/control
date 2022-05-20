@@ -1,0 +1,12 @@
+Source: ros-noetic-monkeywrench
+Section: misc
+Priority: optional
+Maintainer: cst0 (Chris Thierauf) <chris@cthierauf.com>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-message-generation, ros-noetic-rospy
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-monkeywrench
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-message-generation, ros-noetic-rospy
+Description: throw a monkeywrench in your robot code
